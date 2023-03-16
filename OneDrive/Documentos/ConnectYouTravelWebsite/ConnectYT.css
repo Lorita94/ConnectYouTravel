@@ -41,35 +41,35 @@ h4 {
     font-size: 30px;
     width: 100%;
     text-align: right;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .backnav {
     background-color: grey;
-    opacity: 60%;
+    opacity: 70%;
+    padding-top: 20px;
 }
 
 #navbanner li {
     display: inline;
+    margin-right: 20px;
 }
 
 .content {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     color:#424242;
     margin: 30px 50px;
     font-weight: 300;
     font-family: georgia;
+    padding: 30px 80px;
     
 }
 
 .title {
     background-color: grey;
-    opacity: 60%;
+    opacity: 70%;
     width: 100%;
-    align-content: center;
-
-    
 
 }
 
@@ -77,3 +77,8 @@ a {
     text-decoration: none;
 }
 
+#about {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #5A358C;
+}
