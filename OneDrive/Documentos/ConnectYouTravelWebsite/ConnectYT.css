@@ -17,7 +17,8 @@ html{
     width: 100%;
     height: 700px;
     display: flex;
-    flex-direction: column;
+    background-color: #424242;
+    align-items: center;
 }
 
 h1 { 
@@ -55,21 +56,12 @@ h4 {
     margin-right: 20px;
 }
 
-.content {
-    font-size: 22px;
-    text-align: center;
-    color:#424242;
-    margin: 30px 50px;
-    font-weight: 300;
-    font-family: georgia;
-    padding: 30px 80px;
-    
-}
-
 .title {
     background-color: grey;
     opacity: 70%;
     width: 100%;
+    height: fit-content;
+    align-content: center;
 
 }
 
@@ -77,8 +69,21 @@ a {
     text-decoration: none;
 }
 
-#about {
+.about {
     margin-bottom: 20px;
     margin-top: 10px;
     color: #5A358C;
+}
+
+.content, .contact, .services {
+    font-size: 22px;
+    text-align: center;
+    color:#424242;
+    margin: 30px 50px;
+    font-weight: 300;
+    font-family: georgia;
+    padding: 30px 80px;
+
+
+    
 }
